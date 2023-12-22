@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE CMF_Hdr SYSTEM "CMF.dtd">
+<CMF_Hdr xmlns="http://dcgs-a-test-harness-namespace.mil">
+	<Data_Pkg_Desc_Elmts>
+		<Hdr_Vers_Elmts>
+			<Major_Parser_API_Version>6</Major_Parser_API_Version>
+			<Minor_Parser_API_Version>2</Minor_Parser_API_Version>
+			<Major_DTD_Version>6</Major_DTD_Version>
+			<Minor_DTD_Version>4</Minor_DTD_Version>
+		</Hdr_Vers_Elmts>
+		<Data_Pkg_Len>18397</Data_Pkg_Len>
+		<Data_Pkg_Priority>CATEGORY_FOUR</Data_Pkg_Priority>
+		<Security_Classif_Elmts>
+			<Security_Tbl_Indx>100</Security_Tbl_Indx>
+		</Security_Classif_Elmts>
+	</Data_Pkg_Desc_Elmts>
+</CMF_Hdr>
+<?xml version="1.0"?>
+<!DOCTYPE CMF_Doc SYSTEM "CMF.dtd">
+<CMF_Doc xmlns="http://dcgs-a-test-harness-namespace.mil">
+	<Package_Description_Data>
+		<Major_Parser_API_Version>6</Major_Parser_API_Version>
+		<Minor_Parser_API_Version>2</Minor_Parser_API_Version>
+		<Major_DTD_Version>6</Major_DTD_Version>
+		<Minor_DTD_Version>4</Minor_DTD_Version>
+		<Pkg_Num>581958469</Pkg_Num>
+		<Time_Of_Xmit>
+			<Clk_Time unit="SECONDS" accuracy="60">82887</Clk_Time>
+			<Julian_Day>228</Julian_Day>
+			<Yr value_offset="1900">119</Yr>
+		</Time_Of_Xmit>
+		<Xmit_Addr>
+			<Addr>
+				<Subnet>TKT</Subnet>
+				<Node>9732855839</Node>
+			</Addr>
+		</Xmit_Addr>
+	</Package_Description_Data>
+	<Entity_Msg>
+		<Entity_Num>1318971333</Entity_Num>
+		<Provider_Typ>AIS</Provider_Typ>
+		<TOI>
+			<Clk_Time unit="SECONDS" accuracy="60">82787</Clk_Time>
+		</TOI>
+		<Julian_Day_Of_Intcp>
+			<Julian_Day>228</Julian_Day>
+		</Julian_Day_Of_Intcp>
+		<Entity_Alternate_ID_Elmts>
+			<TIBS_Trk_Num>
+				<TIBS_Subnet>B</TIBS_Subnet>
+				<TIBS_Station_Addr>AA</TIBS_Station_Addr>
+				<TIBS_Lbl>UVQ</TIBS_Lbl>
+				<TIBS_Msg_Num>809</TIBS_Msg_Num>
+			</TIBS_Trk_Num>
+			<TDDS_ID>
+				<TDDS_CI>
+					<Correl_Indx>JP</Correl_Indx>
+				</TDDS_CI>
+				<TDDS_SCN>268372</TDDS_SCN>
+				<TDDS_Trk_Num>CYKYQBN</TDDS_Trk_Num>
+			</TDDS_ID>
+			<USMTF_Trk_ID>
+				<Producer_Digraph>LI</Producer_Digraph>
+				<USMTF_Msg_Num>291</USMTF_Msg_Num>
+				<USMTF_Trk_Num>9274828047</USMTF_Trk_Num>
+			</USMTF_Trk_ID>
+		</Entity_Alternate_ID_Elmts>
+		<Interest_Indicators>
+			<Hi_Interest_Indic>Y</Hi_Interest_Indic>
+			<Decept_Indic>Y</Decept_Indic>
+		</Interest_Indicators>
+		<Entity_ID_Elmts>
+			<Envir_ID>SSH</Envir_ID>
+			<Entity_Name>TFDISPERSED</Entity_Name>
+			<Nat_Alliance>SVK</Nat_Alliance>
+			<Entity_Stat>ANCHOR</Entity_Stat>
+			<Vessel_Class>CARGO</Vessel_Class>
+			<Entity_Physical_Char_Elmts>
+				<Entity_Len unit="METERS">354.3058</Entity_Len>
+				<Entity_Width unit="METERS">29.493574</Entity_Width>
+				<Maritime_Char>
+					<Vessel_Draft unit="FEET">12.627672</Vessel_Draft>
+					<Onboard_Ref_Point>
+						<Len_To_Bow unit="METERS">155.84604</Len_To_Bow>
+						<Width_To_Port unit="METERS">15.13073</Width_To_Port>
+					</Onboard_Ref_Point>
+				</Maritime_Char>
+			</Entity_Physical_Char_Elmts>
+		</Entity_ID_Elmts>
+		<Entity_Polar_Loc_Elmts>
+			<Entity_Loc>
+				<Loc>
+					<Lat unit="SECONDS">29272.125</Lat>
+					<Long unit="SECONDS">338517.8</Long>
+				</Loc>
+			</Entity_Loc>
+			<Position_Fix_Method>24</Position_Fix_Method>
+			<Dest_Elmts>
+				<Estimated_Day_Time>
+					<Julian_Day>233</Julian_Day>
+					<Clk_Time unit="SECONDS" accuracy="60">82987</Clk_Time>
+				</Estimated_Day_Time>
+				<Loc_Name>NEW MARTINSVILLE</Loc_Name>
+			</Dest_Elmts>
+		</Entity_Polar_Loc_Elmts>
+		<Entity_Polar_Attud_Elmts>
+			<Speed unit="KTS">17575.996</Speed>
+			<Crs_Degrees unit="DEGREES">95</Crs_Degrees>
+		</Entity_Polar_Attud_Elmts>
+		<Entity_RF_Desc_Elmts>
+			<Freq unit="HERTZ">161220.16</Freq>
+		</Entity_RF_Desc_Elmts>
+		<Entity_Ampn_Elmts>
+			<Ampn_ID>
+				<ELNOT>YXVVD</ELNOT>
+			</Ampn_ID>
+			<Ampn_ID>
+				<SCONUM>ROMUCKF</SCONUM>
+			</Ampn_ID>
+			<Ampn_ID>
+				<Xmit_Desc>VYQ</Xmit_Desc>
+			</Ampn_ID>
+			<Ampn_ID>
+				<IMO_Num>2700769864</IMO_Num>
+			</Ampn_ID>
+			<Ampn_ID>
+				<MMSI_Num>852703663</MMSI_Num>
+			</Ampn_ID>
+			<Ampn_ID>
+				<Internat_Call_Sign>063N</Internat_Call_Sign>
+			</Ampn_ID>
+			<Ampn_ID_Declared_Elmts>
+				<Entity_Name>PADDLE SHF</Entity_Name>
+			</Ampn_ID_Declared_Elmts>
+		</Entity_Ampn_Elmts>
+		<Msg_Filter_Elmts>
+			<Provider_Community>AIS</Provider_Community>
+		</Msg_Filter_Elmts>
+	</Entity_Msg>
+</CMF_Doc>
