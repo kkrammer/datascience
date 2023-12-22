@@ -1,0 +1,15 @@
+# Note: Dates below are to be in Linux Epoch format: example, 1667581988.12 or use the `date +%s` swtich
+      curl -Lk -X POST \
+        -H "api-key: $EMASS_API_KEY" \
+        -H "user-uid: $EMASS_USER_UID" \
+        -H "Content-Type: application/json" \
+        -d "[{
+          'containerId': 'test-container',
+          'containerName': 'test-container',
+          'podName': 'test-container-955596ffc',
+          'podIp': '10.10.10.101',
+          'namespace': 'default',
+          'time': $(date +%s),
+          'tags': {
+            'test': 'test-tag'
+          },
